@@ -21,7 +21,7 @@
 		<script src="../static/js/font.js"></script>
 		<script type="text/javascript">
 			function clearText(){
-				Document.getElementById("source").value=""
+				document.getElementById("source").value=""
 				document.getElementById("destination").value=""
 			}
 		</script>
@@ -37,7 +37,7 @@
 		<style>
 			@font-face { 
 				font-family: 'win_innwaregular';
-				src: url("{{url_for('static', filename='wininnwa-webfont.woff2')}}") format('woff2'),
+				src: url("{{url_for('static', filename='wininnwa-webfont.woff2')}}") Format('woff2'),
 					url("{{url_for('static', filename='wininnwa-webfont.woff')}}") format('woff');
 					font-weight: normal;
 					font-style: normal;
