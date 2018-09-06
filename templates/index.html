@@ -22,14 +22,14 @@
 		<script type="text/javascript">
 			function clearText(){
 				document.getElementById("source").value=""
-				document.getElementById("Destination").value=""
+				document.getElementById("destination").value=""
 			}
 		</script>
 	<script type="text/javascript">
 		function Copy(){
 			var copyText=document.getElementById("destination");
 			copyText.select();
-			document.execCommand("copy");
+			document.execCommand("Copy");
 			//alert("Copied the text:" + copyText.value);
 		}
 	</script>
